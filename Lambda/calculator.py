@@ -61,11 +61,11 @@ Args:
     if operator == '+':
         compute = lambda x, y: x + y
     elif operator == '-':
-        compute = lambda x, y: x - y
+        #implement the subtraction function in lambda
     elif operator == '/':
-        compute = lambda x, y: x / y
+        #implement the division function in lambda
     elif operator == '*':
-        compute = lambda x, y: x * y
+        #implement the multiplication function in lambda
 
     result = compute(numbers[0],numbers[1])
 
